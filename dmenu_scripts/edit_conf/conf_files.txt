@@ -1,0 +1,6 @@
+Bash -> $HOME/.bashrc
+Kitty -> $HOME/.config/kitty/kitty.conf
+Fish -> $HOME/.config/fish/config.fish
+Qtile -> $HOME/.config/qtile/config.py
+Starship -> $HOME/.config/starship.toml
+Halloy -> $HOME/.config/halloy/config.toml
