@@ -1,5 +1,0 @@
-Suricata -> /var/log/suricata/fast.log
-DiskMonitor -> /var/log/disk_monitor.log
-ServiceMonitor -> /var/log/service_monitor.log
-Xorg -> /var/log/Xorg.0.log
-Pacman -> /var/log/pacman.log

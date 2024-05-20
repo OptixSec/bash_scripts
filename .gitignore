@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=dotenv
 
+### Private ###
+conf_files.txt
+log_files.txt
+
 ### dotenv ###
 .env
 
