@@ -4,7 +4,7 @@
 CONF_FILES="$HOME/repos/bash/dmenu_scripts/edit_conf/conf_files.txt"
 
 # Use dmenu to select a configuration file from the list
-SELECTED_CONF=$(sed "s|\$HOME|$HOME|g" "$CONF_FILES" | dmenu -i -l 20 -p "Edit config:")
+SELECTED_CONF=$(sed "s|\$HOME|$HOME|g" "$CONF_FILES" | rofi -dmenu -i -p "Edit configuration")
 
 # Check if a file was selected
 if [[ -n $SELECTED_CONF ]]; then

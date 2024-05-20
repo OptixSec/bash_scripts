@@ -4,7 +4,7 @@
 options="Shutdown\nReboot\nLogout"
 
 # Command to launch dmenu with the options
-selected=$(echo -e "$options" | dmenu -i -p "Select action:")
+selected=$(echo -e "$options" | rofi -dmenu -i -p "Select action:")
 
 # Perform the action based on the selected option
 case $selected in

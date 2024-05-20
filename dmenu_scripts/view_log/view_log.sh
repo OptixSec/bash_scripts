@@ -4,7 +4,7 @@
 LOG_FILES="$HOME/repos/bash/dmenu_scripts/view_log/log_files.txt"
 
 # Use dmenu to select a log file from the list
-SELECTED_LOG=$(cat "$LOG_FILES" | dmenu -i -l 20 -p "View log:")
+SELECTED_LOG=$(cat "$LOG_FILES" | rofi -dmenu -i -p "View log")
 
 # Check if a file was selected
 if [[ -n $SELECTED_LOG ]]; then
